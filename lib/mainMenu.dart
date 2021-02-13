@@ -76,6 +76,7 @@ class _MainMenuState extends State<MainMenu>
     }
 
     return MaterialApp(
+      title: 'Tic Tac Toe',
       debugShowCheckedModeBanner: false,
       home: WillPopScope(
         onWillPop: _onWillPop,

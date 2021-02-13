@@ -285,6 +285,7 @@ class _MainGameTwoPlayerState extends State<MainGameTwoPlayer> {
     }
 
     return MaterialApp(
+      title: 'Tic Tac Toe',
       debugShowCheckedModeBanner: false,
       home: WillPopScope(
         onWillPop: _onWillPop,

@@ -630,6 +630,7 @@ class _MainGameSinglePlayerState extends State<MainGameSinglePlayer> {
     }
 
     return MaterialApp(
+      title: 'Tic Tac Toe',
       debugShowCheckedModeBanner: false,
       home: WillPopScope(
         onWillPop: _onWillPop,

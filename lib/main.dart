@@ -6,6 +6,7 @@ import 'mainMenu.dart';
 void main() => runApp(MaterialApp(
       debugShowCheckedModeBanner: false,
       home: SplashScreen(),
+      title: 'Tic Tac Toe',
     ));
 
 class SplashScreen extends StatefulWidget {
