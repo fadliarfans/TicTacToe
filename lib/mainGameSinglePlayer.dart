@@ -34,7 +34,7 @@ class _MainGameSinglePlayerState extends State<MainGameSinglePlayer> {
         cellList[i].setValue = value;
       }
     });
-    _counter10.value = value == true ? 'Player 1 Turn' : 'Player 2 turn';
+    _counter10.value = 'Player 1 Turn';
     if (_counter10.value != 'Player 1 Win' &&
         _counter10.value != 'Player 2 Win') {
       audioCache.play('1.mp3');
