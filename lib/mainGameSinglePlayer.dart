@@ -576,7 +576,7 @@ class _MainGameSinglePlayerState extends State<MainGameSinglePlayer> {
         callBack: changeValue,
       ));
     }
-    _counter10.value = value == true ? 'Player 1 Turn' : 'Player 2 turn';
+    _counter10.value = 'Player 1 Turn';
     audioCache = AudioCache(
         prefix: 'music/',
         fixedPlayer: AudioPlayer()..setReleaseMode(ReleaseMode.STOP));

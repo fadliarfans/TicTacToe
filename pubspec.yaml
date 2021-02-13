@@ -27,6 +27,7 @@ dependencies:
   animated_background: ^1.0.5
   audioplayers: ^0.17.3
   flutter_spinkit: ^4.1.2
+  
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -36,6 +37,12 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: "^0.8.0"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/icon.PNG"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
